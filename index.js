@@ -3,9 +3,9 @@ let nomeHeroi = "SokkaNelas"
 let rank = ""
 
 if(xp <= 1000){
-    rank = "Bronze"
-}else if(xp >= 1001 && xp <= 2000){
     rank = "Ferro"
+}else if(xp >= 1001 && xp <= 2000){
+    rank = "Bronze"
 }else if(xp >= 2001 && xp <= 5000){
     rank = "Prata"
 }else if(xp >= 5001 && xp <= 7000){
